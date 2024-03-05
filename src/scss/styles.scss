@@ -21,22 +21,8 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Import partials:
+@import 'nav';
+@import 'jumbotron';
+@import 'article';
 
 // Custom styles:
-
-.nav-link:hover {
-  text-decoration: underline;
-}
-
-header {
-  background: url("../img/pirate-ship.jpg") no-repeat center;
-  background-size: cover;
-}
-
-h1, .lead {
-  font-family: "Sofia", sans-serif;
-}
-
-.lead {
-  font-size: 1.6rem;
-}

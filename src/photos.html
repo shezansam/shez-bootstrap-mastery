@@ -21,13 +21,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="article.html">Article</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="photos.html">Photos</a>
+            <a class="nav-link active" aria-current="page" href="photos.html">Photos</a>
           </li>
         </ul>
       </div>
@@ -42,44 +42,27 @@
     <header>
   </div>
 
-  <!-- Cards header -->
-  <section class="container-fluid pt-4">
-    <div class="row">
-      <div class="col-md-12 col-lg-12">
-          <h2>Thar be monsters in the sea</h2>
+  <!-- Photo carousel -->
+  <div id="carouselExampleControls" class="carousel slide my-5 px-3 col-md-8 offset-md-2" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/kraken01.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/kraken02.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/kraken03.jpg" class="d-block w-100" alt="...">
       </div>
     </div>
-  </section>
-
-  <!-- Cards -->
-  <div class="row row-cols-1 row-cols-md-3 g-3 mx-2 mb-5">
-    <div class="col">
-      <div class="card">
-        <img src="img/kraken01.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Giant Kraken</h5>
-          <p class="card-text">Ballast Pirate Round sutler draught Chain Shot parrel grog blossom jolly boat plunder ye.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="img/kraken02.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Silly Kraken</h5>
-          <p class="card-text">Scallywag list lateen sail fore American Main careen tender doubloon shrouds gaff line six pounders main sheet code of conduct topgallant.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="img/kraken03.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Slimy Kraken</h5>
-          <p class="card-text">Yard bilge Jack Ketch run a shot across the bow lee list Blimey jolly boat fire in the hole strike colors.</p>
-        </div>
-      </div>
-    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
 
   <!-- Footer -->
